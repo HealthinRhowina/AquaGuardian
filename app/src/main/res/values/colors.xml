@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#1692CA</color>
+    <color name="m">#550511</color>
+    <color name="rr">#5B1CC1</color>
+    <color name="rr4">#90CBE6</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="query_background">#90CBE6</color>
+    <color name="query_hint_color">#757575</color>
+    <color name="query_text_color">#000000</color>
+</resources>

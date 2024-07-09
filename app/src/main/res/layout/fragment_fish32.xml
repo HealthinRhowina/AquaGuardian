@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ff"
+    tools:context=".Fish12Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- VideoView for displaying the fish video -->
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="500dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp" />
+
+        <!-- Play/Pause buttons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/playButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play"
+                android:background="@drawable/button_backgroundd"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/pauseButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pause"
+                android:background="@drawable/button_backgroundd"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="20dp" />
+        </LinearLayout>
+
+        <!-- SeekBar for video progress -->
+        <SeekBar
+            android:id="@+id/videoSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:progressDrawable="@drawable/seekbar_progress"
+            android:thumbTint="@android:color/holo_blue_light" />
+
+        <!-- ScrollView for the TextView -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+            <!-- TextView for displaying additional information -->
+            <TextView
+                android:id="@+id/video_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guppies are popular freshwater fish known for their vibrant colors and ease of care. They come in a wide range of colors and patterns, often with distinct tail fins. Guppies are livebearers, meaning they give birth to free-swimming young instead of laying eggs. They are active and social fish, making them ideal for community aquariums."
+                android:textSize="18sp"
+                android:background="#801E1C1C"
+                android:textColor="@android:color/white"
+                android:padding="20dp"
+                android:textIsSelectable="true"/>
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

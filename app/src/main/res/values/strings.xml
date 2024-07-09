@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="click_here_to_register">Click Here To Register</string>
+    <string name="register">Register</string>
+    <string name="click_here_to_login">Click here to Login</string>
+    <string name="logout">Logout</string>
+    <string name="list_of_shop_nearby">List Of Shop</string>
+    <string name="list_of_fish">List Of Fish</string>
+    <string name="Fighter">Fighter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">HELLO</string>
+    <string name="start">start</string>
+    <string name="button1">button1</string>
+    <string name="button2">button2</string>
+    <string name="UserName">User Name</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="Name">Name</string>
+    <string name="username">User Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="pincode">Pincode</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="betta">\nBetta\n</string>
+    <string name="neon_tetra">\nNeon Tetra\n</string>
+    <string name="guppy">\nGuppy\n</string>
+    <string name="angelfish">\nAngelfish\n</string>
+    <string name="molly">\nMolly\n</string>
+    <string name="zebra">\nZebra\n</string>
+    <string name="swordtail">\nSwordtail\n</string>
+    <string name="gold_fish">\nGold Fish\n</string>
+    <string name="african_cichlid">\nAfrican Cichlid\n</string>
+    <string name="goldfish">\ngoldfish\n</string>
+    <string name="platy">\nPlaty\n</string>
+    <string name="zebra_danio">\nZebra\n</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="uploadpick">Upload Picks</string>
+</resources>

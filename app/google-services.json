@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1047393666603",
+    "project_id": "application-da5b3",
+    "storage_bucket": "application-da5b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047393666603:android:9af833024f9764b4db0c6e",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOEjQlKcYusrOqX8qBTCCb9JhunmCi2rE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:gravity="center"
+    android:background="@drawable/f">
+
+    <!-- SearchView for searching fish -->
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:queryHint="Search for fish" />
+
+    <!-- ScrollView to enable scrolling for ImageButtons -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Betta -->
+            <LinearLayout
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/rr4"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/f11"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Betta (Betta splendens)"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+            <!-- Neon Tetra -->
+            <LinearLayout
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/rr4"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/f21"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Neon Tetra (Paracheirodon innesi)"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+            <!-- Guppy -->
+            <LinearLayout
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/rr4"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/f31"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guppy (Poecilia reticulata)"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+            <!-- Angelfish -->
+            <LinearLayout
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/rr4"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/f41"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Angelfish (Pterophyllum scalare)"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+            <!-- Molly -->
+            <LinearLayout
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/rr4"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/f51"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Molly (Poecilia sphenops)"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+            <!-- Zebra Danio -->
+            <LinearLayout
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/rr4"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/f61"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zebra Danio (Danio rerio)"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+            <!-- Swordtail -->
+            <LinearLayout
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/rr4"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/f71"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Swordtail (Xiphophorus hellerii)"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+            <!-- Goldfish -->
+            <LinearLayout
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/rr4"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/f81"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Goldfish (Carassius auratus)"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+            <!-- African Cichlid -->
+            <LinearLayout
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/rr4"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/f91"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="African Cichlid (Various species from African rift lakes)"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

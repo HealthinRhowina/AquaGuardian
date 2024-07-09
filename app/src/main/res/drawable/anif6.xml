@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- creation of animation list-->
+    <item
+        android:drawable="@drawable/f61"
+        android:duration="700" />
+    <item
+        android:drawable="@drawable/f62"
+        android:duration="700" />
+    <item
+        android:drawable="@drawable/f63"
+        android:duration="700" />
+    <item
+        android:drawable="@drawable/f65"
+        android:duration="700" />
+</animation-list>
